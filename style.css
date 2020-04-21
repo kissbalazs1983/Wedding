@@ -1,0 +1,345 @@
+/*
+
+Header
+
+    tagline: We're getting married!
+    headline: Zoe & Alex
+    date: August 1, 2018
+
+    Locations
+
+    ceremony: St. Nicholas Church, 2 Trinity Square, Budapest 
+    photos: Liberty Bastion, 23 Wisdom Road, Budapest
+    party: Heaven Lounge, 14 Fairy Street, Budapest
+
+    Program
+
+    tagline: "It's going to be somehow, that's for sure."
+    times:
+      13:45 – Wedding ceremony
+      14:30 – Photos
+      16:00 – Cocktails
+      18:00 – Dinner
+      22:00 – Cake
+      ... - 4:00 – Dance until dawn
+
+    Gifts:
+
+    tagline: The greatest gift for us is to have you there.
+    paragraph: Please, just bring yourself and have fun with us.
+
+    Questions and Answers
+
+    travel and accomodations:
+
+      Will there be some kind of organized transfer?
+      No, we'll just meet at the church at 13:15.
+
+      Where can I park?
+      Parking is free on the weekends in the 1st district. The locations are close to each other so you won't need your car.
+
+      How can I get home at night?
+      The 916 bus is in service all night at the castle and it hits every major traffic hub in the city.
+
+    food and festivities:
+
+      I'd like to do some kind of surprise for you guys at the party. To whom should I talk about this?
+      Discuss it with Abigail Smith. Just drop her an email at abigail@awesomemail.com.
+
+      What should I wear? Do you have a dress code?
+      Wear what's comfortable to you. If it helps smart casual / business casual for the ladies and smart casual / informal for the gentlemen are perfect options.
+
+      I would like some kind of special food (gluten-free, lactose-free, vegan etc.)
+      Drop us a line here and we'll find a way.
+
+    other small stuff:
+
+      I have a problem / question on the wedding day. With whom can I speak?
+      Jared Wright on this number: +36 30 000 0000.
+
+      Can we bring kids?
+      Sure! We planned a whole toy / sweets corner for them.
+
+      How do you feel about dogs? Can I bring mine?
+      We love dogs and you can absolutely bring yours. The Heaven Lounge is a dog-friendly place.
+
+    Contact
+
+    paragraph: If you have any questions feel free to call / write us.
+    phone (Zoe): +36 30 000 0000
+    phone (Alex): +36 30 000 0000
+    email: zoeandalex@awesomemail.com
+
+    Footer
+
+    paragraph: Made with ♥ in Budapest ©2018 | Icons by Becris (CC 3.0 BY)
+    link to artist: http://www.flaticon.com/authors/becris
+    link to license: https://creativecommons.org/licenses/by/3.0/
+  
+
+
+Egyéb tartalmak / információk
+Képek:
+
+
+    background pattern: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png
+    cover photo: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg
+    ceremony location: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-ceremony.png
+    photoshoot location: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-photoshoot.png
+    party location: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-party.png
+    gifts: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-gifts.png
+    favicon: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-favicon.png
+  Copy
+Betűtípusok (a Google Fonts oldalról):
+
+
+    Great Vibes
+    Libre Baskerville
+    Muli
+  Copy
+Színek:
+
+
+    default text color: #444349 (grey)
+    alternate text color: #d2ba87 (gold)
+    dark background: hsla(100,0%,0%,.6);
+    link color: #bd806e
+    link color on hover: #eda087
+    footer background color: #606060
+  
+*/
+
+/* FONTS
+font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Muli', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+  width: 100vw;
+  margin: 0;
+  
+  
+}
+
+.wrapper {
+  display: flex;
+  max-width: auto;
+  height: 100vh;
+  background: url('https://i.imgur.com/eAAL9B2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  width: 40%;
+  height: auto%;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1 px solid grey;
+  border-radius: 15px;
+  text-align: center
+ 
+  
+}
+
+.headline h1 {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  letter-spacing: .4rem;
+  font-size: 3.5rem;
+}
+
+.headline h2 {
+  color: white;
+  letter-spacing: .4rem;
+  font-size: 2.5rem;
+  font-family: 'Muli', sans-serif;
+}
+
+hr {
+  width: 30%;
+}
+
+.headline h3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  position: relative;
+  color: white;
+  letter-spacing: .4rem;
+  font-size: 1.5rem;
+  font-family: 'Muli', sans-serif;
+   }
+
+/* h3:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 2px solid white;
+  top: 0;
+  width: 30px;
+  right: 0;
+  
+  }
+
+h3:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 2px solid white;
+  top: 0;
+  left: 0;
+  width: 30px;
+  }
+*/
+.location-parts img {
+  width: 40%;
+  height: auto;
+}
+
+.location-parts {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+h3 {
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: #444349;
+}
+
+.location-parts h4 {
+  font-size: 2rem;
+  color: #444349;
+
+}
+
+.location-parts p {
+  font-size: 1.3rem;
+  color: #444349;
+  margin: .8rem;
+  line-height: 1.7rem;
+}
+
+.location-parts hr {
+  height: 4px;
+  background: #444349;
+}
+
+.program {
+  background: hsla(100,0%,0%,.6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #d2ba87;
+ text-align: center;
+  
+}
+
+.program h3 {
+  color: #d2ba87;
+  
+  
+}
+
+.program p, li {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-family: 'Muli', sans-serif;
+  
+}
+
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+}
+
+.gifts {
+  text-align: center;
+}
+
+.gifts p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-family: 'Muli', sans-serif;
+}
+
+.gifts img {
+  width: 8%;
+  height: auto;
+}
+
+.questions {
+  background: hsla(100,0%,0%,.6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  
+}
+
+.questions h3 {
+  color: #d2ba87;
+}
+
+.cover {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+h5 {
+  color: #d2ba87;
+  font-size: 1.3rem;
+  font-family: 'Muli', sans-serif;
+}
+
+.questions p {
+  color: #d2ba87;
+}
+
+.travel, .food, .other {
+  width: 15%
+}
+
+a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eda087;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+ font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-family: 'Muli', sans-serif; 
+}
+
+footer {
+  background: #606060;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'Muli', sans-serif;
+  font-size: .8rem;
+}
